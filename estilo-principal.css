@@ -1,0 +1,478 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: 'Poppins', sans-serif;
+}
+main{
+    width: 100%;
+    height: auto;
+}
+
+#titulo-menu{
+    font-family: "fonte1";
+    /* font-weight: bolder; */
+    background: linear-gradient(96.14deg, #282C3F -10.84%, #3DFF44 92.95%, #3DFF44 196.74%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    width: 110%;
+
+}
+
+#topo{
+    width: 100%;
+    height: 630px;
+    background-image: url(imagens/fundo-principal-verde.png);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-color: #e2fadf;
+}
+#logo{
+    margin-left: 3.4rem;
+    width: 4rem;
+    height: 2.5rem;
+}
+#menu-principal{
+    display: flex;
+    flex-direction: row;
+}
+#titulo-menu{
+    font-weight: bolder;
+    color: #1d8b28;
+}
+#titulo-menu img{
+    position: relative;
+    margin-right: 8%;
+}
+#offcanvasNavbar {
+    background-color: #c1debd;
+}
+#esquerda-topo-principal{
+    width: 55%;
+    margin: auto;
+    position: absolute;
+    top: 15%;
+    left: 5%;
+}
+
+#titulo-verde{
+    margin-top: 5%;
+    font-size: 50px;
+    color: #19AC20;
+    font-weight: bolder;
+}
+#titulo-preto{
+    color: #171717;
+    font-size: 50px;
+    font-weight: bolder;
+}
+#esquerda-topo-principal p{
+    font-weight: 600;
+    font-size: 18px;
+}
+#direita-topo-principal{
+    width: 45%;
+    position: absolute;
+    left: 54%;
+    top: 10%;
+}
+#direita-topo-principal img{
+   width: 90%;
+   height: 520px;
+}
+.titulo-campanhas{
+    text-align: center;
+    background-color: #e2fadf;
+    height: 45px;
+    color: #19AC20;
+
+}
+#carouselExampleIndicators{
+    margin-top: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(4, 89, 255, 0.53) 0%, rgba(4, 89, 255, 0) 100%);
+    color: #171717;
+    /* margin-bottom: 5px; */
+}
+#carouselExampleIndicators img{
+    width: 100%;
+    height: 100%;
+}
+.pagina_delivery{
+    display: flex;
+    /* margin-top: 15px; */
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 100%;
+    height: 230px;
+    /* background: linear-gradient(180deg, rgba(4, 89, 255, 0.53) 0%, rgba(4, 89, 255, 0) 100%); */
+    /* background-color: black; */
+    clear: both;
+}
+
+#texto_delivery{
+    width: 100%;
+    height: 100%;
+    text-align:center;
+}
+#deliveryH2{
+    font-size: 30px;
+    margin-bottom: 15px;
+    color: #282C3F;
+    font-weight: 700;
+}
+#deliveryP{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 50px;
+    text-align: left;
+    color: #000;
+}
+.estilo_entregador{
+    width: 150px;
+    height: 150px;
+    padding-bottom: 20%;
+}
+#form_delivery{
+    width: 55%;
+    height: 330px;
+    padding-top: 35px;
+    /* background-color: lightblue; */
+    padding-left: 5%;
+    float: left;
+}
+.estilo_form{
+    border-bottom: 1px solid #000;
+    width: 85%;
+    background-color: transparent;
+    /* background-color: lightblue; */
+}
+#delivery_foto{
+    width: 45%;
+    height: 525px;
+    padding: 1%, 1%, 1%,;
+    /* background-color: lightblue; */
+    float: left;
+}
+
+#delivery_foto img{
+    width: 100%;
+    height: 100%;
+    /* padding-left: 5%;
+    padding-bottom: 3%; */
+}
+#delivery_baixo{
+    width: 100%;
+    height: 400px;
+    /* background-color: lightblue; */
+}
+.estilo_botao_finalizar{
+    height: 30px;
+    width: 30%;
+    padding: 1%,1%, 1%, 1%;
+    border-radius: 5px;
+    background-color: #282C3F;
+    color: #fff;
+    text-align: center;
+}
+.cordelivery{
+    background: linear-gradient(180deg, rgba(4, 89, 255, 0.53) 0%, rgba(4, 89, 255, 0) 100%);
+    width: 100%;
+    height: 630px;
+}
+.sobrenos{
+    margin-top: 100px;
+    width: 100%;
+    height: 630px;
+    background: linear-gradient(180deg, rgba(255,255,255,0.8757878151260504) 0%, rgba(193,222,189,1) 29%, rgba(193,222,189,1) 69%, rgba(206,251,196,1) 100%);
+        color: #1B441D;
+    text-align: center;
+    /* padding-top: 5%; */
+    
+}
+.sobrenos h4{
+    width: 100%;
+    height: 100px;
+    font-weight: 700;
+    font-size: 35px;
+}
+#conteudo_sobrenos{
+    height: 454px;
+    width: 50%;
+    float: left;
+}
+#conteudo_sobrenos img{
+    width: 60%;
+    height: 100%;
+}
+#imagem_hospital{
+    height: 454px;
+    width: 50%;
+    float: left;
+}
+#imagem_hospital img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+footer{
+    width: 100%;
+    height: 185px;
+    background-color: black;
+    float: left;
+}
+
+#logo_rodape{
+    /* background-color: white; */
+    width: 20%;
+    height: 100%;
+    float: left;
+    text-align: center;
+}
+
+#logo_rodape img{
+    width: 70%;
+    height: 80%;
+    padding-top: 30px;
+    margin-left: 50px;
+}
+
+#linha{
+    width: 0,1%;
+    height: 100%;
+    position: relative;
+    float: left;
+    background-color: #000000;
+}
+
+#linha img{
+    width: 100%;
+    height: 93%;
+    margin-top: 6px;
+}
+
+
+#acessibilidade{
+    width: 20%;
+    height: 50%;
+    float: left;
+    text-align: left;
+    margin-left: 130px;
+    font-size: 13px;
+    font-family: "fonte1";
+    top: 20px;
+    margin-top: 12px;
+}
+
+#acessibilidade h6{
+    margin: 20px;
+    margin-top: 20px;
+    color: white;
+}
+
+#acessibilidade a{
+    text-decoration: none;
+    margin: 20px;
+    color: white;
+}
+
+#acessibilidade a:hover{
+    color: #65A8FB;
+}
+
+#suporte{
+    width: 20%;
+    height: 50%;
+    float: left;
+    text-align: left; 
+    font-size: 13px;
+    font-family: "fonte1";
+    top: 20px;
+    margin-top: 30px;
+}
+
+#suporte h6{
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+}
+
+#suporte a{
+    text-decoration: none;
+    color: white;
+}
+
+#suporte a:hover{
+    color: #65A8FB;
+}
+
+#social{
+    font-size: 13px;
+    font-family: "fonte1";
+    color: white;
+    top: 30px;
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+
+#social h6{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+#social img{
+    width: 15%;
+    height: 23%;
+    margin: 5px;
+}
+#lado{
+    display: none;
+}
+
+ @media only screen and (max-width:480px) /* visualização mobile */
+{
+
+    main{
+        width: 100%;
+        height: auto;
+    }
+
+    #topo{
+        width: 100%;
+        text-align: left;
+        margin-left: 0;
+    }
+
+    #logo{
+        margin-left: 0;
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+    #titulo-menu{
+        color: transparent;
+    }
+
+    #esquerda-topo-principal{
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 20px;
+        position: absolute;
+        top: 15%;
+        left: 2;
+    }
+    #titulo-verde{
+        margin-top: 3%;
+        font-size: 50px;
+        color: #19AC20;
+        font-weight: bolder;
+        margin-left: 0px;
+        margin-right: 20px;
+        margin-bottom: 15px;
+    }
+    #titulo-preto{
+        color: #171717;
+        font-size: 32px;
+        font-weight: bolder;
+        margin-left: 0px;
+        margin-right: 20px;
+        margin-bottom: 13px;
+    }
+    #esquerda-topo-principal img{
+        display: none;
+    }
+    #esquerda-topo-principal p{
+        font-weight: 500;
+        font-size: 23px;
+        margin-left: 0px;
+        line-height: 3.15rem;
+        margin-right: 20px;
+    }
+    #direita-topo-principal{
+      display: none;
+    }
+
+    #carouselExampleIndicators{
+        display: none;
+    }
+
+    #texto_delivery{
+        text-align:left;
+    }
+    #deliveryH2{
+        font-size: 32px;
+    }
+    #deliveryP{
+        font-size: 15px;
+        line-height: 2.3rem;
+    }
+    #form_delivery{
+        width: 100%;
+        margin-top: 3%;
+    }
+
+    #delivery_foto{
+       display: none;
+    }
+    
+    .sobrenos{
+        padding-top: 5%;
+        align-items: center;
+        text-align: center;
+    }
+
+    #conteudo_sobrenos{
+        height: 420px;
+        width: 100%;
+        padding-left: 4%;
+        float: left;
+    }
+    #conteudo_sobrenos img{
+        width: 65%;
+        height: 100%;
+    }
+    #imagem_hospital{
+        display: none;
+    }
+
+    footer{
+        width: 100%;
+        height: auto;
+        background-color: black;
+        float: left;
+    }
+
+    #logo_rodape{
+        width: 25%;
+    }
+
+    #logo_rodape img{
+        width: 100%;
+    }
+
+    #linha-reta, #relato, #img-meio{
+        display: none;
+    }
+
+    #lado{
+        display: flex;
+    }
+
+    #acessibilidade, #suporte{
+        width: auto;
+        font-size: 12px;
+        float: left;
+        margin: 3%;
+    }
+
+    #social a img{
+        width: 30px;
+    }
+}

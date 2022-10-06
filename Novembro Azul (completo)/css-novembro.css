@@ -1,0 +1,570 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'fonte1';
+    src: url(fontes/Poppins/Poppins-Bold.ttf);
+}
+
+
+main{
+    background-color: #65A8FB;
+    width: 100%;
+    height: auto;
+}
+
+header{
+    background-color: black;
+    width: 100%;
+    height: 100px;
+}
+
+.logo{
+    background-color:#4882fc;
+    width: 100%;
+    height: 100px;
+    float: left;
+}
+
+#logo{
+    width: 4rem;
+    height: 2.5rem;
+}
+#menu-principal{
+    display: flex;
+    flex-direction: row;
+}
+#titulo-menu{
+    font-family: "fonte1";
+    /* font-weight: bolder; */
+    background: linear-gradient(96.14deg, #282C3F -10.84%, #3DFF44 92.95%, #3DFF44 196.74%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+}
+#titulo-menu img{
+    position: relative;
+    margin-right: 8%;
+}
+#offcanvasNavbar {
+    background-color: #65A8FB;
+}
+
+
+.cima{
+    width: 100%;
+    height: 800px;
+    float: left;
+    background-color: #65A8FB;
+}
+
+#formaimg{
+    width: 100%;
+    height: 650px;
+    position: relative;
+    float: left;
+}
+
+#titulo1{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    float: left;
+}
+
+#titulo1 p{
+    position: absolute;
+    color: #0C32A7;
+    font-family: "fonte1";
+    font-size: 35px;
+    padding-left: 41%;
+    padding-top: 20px;
+    float: left;
+}
+
+#texto1{
+    width: 100%;
+    position: absolute;
+    float: left;
+}
+
+#texto1 p{
+    position: absolute;
+    font-size: 22px;
+    font-family: "fonte1";
+    color: #000;
+    line-height: 70px;
+    font-weight: 500;
+    padding: 130px 70px;
+    float: left;
+    width: 55%;
+}
+
+#imgmedico{
+    width: 95%;
+    height: 580px;
+    position: absolute;
+    float: left;
+    padding-top: 80px;
+    padding-left: 800px;
+}
+
+.meio{
+    width: 100%;
+    height: 1000px;
+    background: linear-gradient(180deg, #65A8FB 19.59%, rgba(101, 168, 251, 0.88) 85.66%, rgba(169, 200, 238, 0.967192) 99.99%, #F1F7FF 100%);
+    float: left;
+    position: relative;
+}
+
+#titulo_meio{
+    width: 100%;
+    float: left;
+    position: absolute;
+}
+
+#titulo_meio p{
+    color: rgba(12, 50, 167, 1);
+    font-family: "fonte1";
+    font-size: 35px;
+    float: left;
+    text-align: center;
+    padding-left: 35%;
+    position: absolute;
+}
+
+#banner{
+    width: 100%;
+    height: 800px;
+    position: relative;
+}
+
+#banner img{
+    width: 98%;
+    height: 90%;
+    position: relative;
+    float: left;
+    top: 120px;
+    padding-left: 20px;
+}
+
+#sintomas h2{
+    text-align: center;
+    padding-top: 10px;
+}
+
+#sintomas{
+    position: absolute;
+    color: rgba(17, 70, 171, 1);
+    width: 50%;
+    height: 700px;
+    font-size: 20px;
+    padding: 80px;
+    padding-top: 148px;
+    font-family: "fonte1";
+    float: left;
+    text-align: left;
+    line-height: 47px;
+    font-weight: 500;
+}
+
+#tratamento h2{
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+#tratamento{
+    position: absolute;
+    float: left;
+    color: rgba(17, 70, 171, 1);
+    width: 35%;
+    height: 700px;
+    text-align: right;
+    line-height: 47px;
+    font-weight: 500;
+    font-family: "fonte1";
+    left: 60%;
+    padding-left: 80px;
+    padding-top: 148px;
+    font-size: 20px;
+}
+
+.baixo{
+    width: 100%;
+    height: 900px;
+    background-color: #6dadfa;
+    float: left;
+    position: relative;
+}
+
+#titulo_baixo{
+    width: 100%;
+    float: left;
+}
+
+#titulo_baixo p{
+    color: rgba(12, 50, 167, 1);
+    font-family: "fonte1";
+    font-size: 35px;
+    float: left;
+    text-align: center;
+    padding-left: 35%;
+    padding-top: 40px;
+}
+
+#texto_baixo1{
+    width: 100%;
+    float: left;
+}
+
+#texto_baixo1 p{
+    font-size: 20px;
+    font-family: "fonte1";
+    padding-top: 40px;
+    padding-left: 140px;
+    line-height: 50px;
+    color: #171717;
+    font-style: normal;
+    width: 80%;
+}
+
+#texto_baixo2{
+    width: 65%;
+    float: left;
+}
+
+#texto_baixo2 p{
+    font-size: 20px;
+    font-family: "fonte1";
+    padding-left: 140px;
+    line-height: 60px;
+    color: #171717;
+    font-style: normal;
+    width: 95%;
+}
+
+#img_nov_azul{
+    width: 30%;
+    height: 700px;
+    float: left;
+    left: 68%;
+    top: 250px;
+    position: absolute;
+}
+
+#img_nov_azul img{
+    width: 80%;
+    height: 80%;
+    position: relative;
+    
+}
+
+
+
+    footer{
+        width: 100%;
+        height: 185px;
+        background-color: black;
+        float: left;
+    }
+    
+    #logo_rodape{
+        /* background-color: white; */
+        width: 20%;
+        height: 100%;
+        float: left;
+        text-align: center;
+    }
+    
+    #logo_rodape img{
+        width: 70%;
+        height: 80%;
+        padding-top: 30px;
+        margin-left: 50px;
+    }
+    
+    #linha{
+        width: 0,1%;
+        height: 100%;
+        position: relative;
+        float: left;
+        background-color: #000000;
+    }
+    
+    #linha img{
+        width: 100%;
+        height: 93%;
+        margin-top: 6px;
+    }
+    
+    
+    #acessibilidade{
+        width: 20%;
+        height: 50%;
+        float: left;
+        text-align: left;
+        margin-left: 130px;
+        font-size: 13px;
+        font-family: "fonte1";
+        top: 20px;
+        margin-top: 12px;
+    }
+    
+    #acessibilidade h6{
+        margin: 20px;
+        margin-top: 20px;
+        color: white;
+    }
+    
+    #acessibilidade a{
+        text-decoration: none;
+        margin: 20px;
+        color: white;
+    }
+    
+    #acessibilidade a:hover{
+        color: #65A8FB;
+    }
+    
+    #suporte{
+        width: 20%;
+        height: 50%;
+        float: left;
+        text-align: left; 
+        font-size: 13px;
+        font-family: "fonte1";
+        top: 20px;
+        margin-top: 30px;
+    }
+    
+    #suporte h6{
+        color: rgb(255, 255, 255);
+        margin-bottom: 20px;
+    }
+    
+    #suporte a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    #suporte a:hover{
+        color: #65A8FB;
+    }
+    
+    #social{
+        font-size: 13px;
+        font-family: "fonte1";
+        color: white;
+        top: 30px;
+        width: 20%;
+        height: 100%;
+        float: left;
+    }
+    
+    #social h6{
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+    
+    #social img{
+        width: 15%;
+        height: 23%;
+        margin: 5px;
+    }
+    #lado{
+        display: none;
+    }
+
+/* Responsivo - celular */
+
+@media only screen and (max-width:576px)
+{
+
+    #titulo1 p{
+        position: absolute;
+        color: #0C32A7;
+        font-family: "fonte1";
+        font-size: 35px;
+        padding-left: 24%;
+        padding-top: 20px;
+        float: left;
+    }
+
+    #texto1{
+        width: 100%;
+        position: absolute;
+        float: left;
+    }
+    
+    #texto1 p{
+        position: absolute;
+        font-size: 22px;
+        font-family: "fonte1";
+        color: #000;
+        line-height: 30px;
+        font-weight: 500;
+        padding: 130px 70px;
+        float: left;
+        width: 100%;
+    }
+
+    #imgmedico{
+        display: none;
+    }
+
+    #formaimg{
+        width: 100%;
+        height: 500px;
+        position: relative;
+        float: left;
+    }
+
+    .cima{
+        width: 100%;
+        height: 600px;
+        float: left;
+        background-color: #65A8FB;
+    }
+
+    .meio{
+        width: 100%;
+        height: 650px;
+        background: linear-gradient(180deg, #65A8FB 19.59%, rgba(101, 168, 251, 0.88) 85.66%, rgba(169, 200, 238, 0.967192) 99.99%, #F1F7FF 100%);
+        float: left;
+        position: relative;
+    }
+
+    #titulo_meio p{
+        color: rgba(12, 50, 167, 1);
+        font-family: "fonte1";
+        font-size: 35px;
+        float: left;
+        text-align: center;
+        padding-left: 10%;
+        padding-top: 30px;
+    }
+
+    #banner img{
+        width: 100%;
+        height: 500px;
+        padding: 10px 5px;
+    }
+
+    #sintomas h2{
+        text-align: center;
+        padding-top: 10px;
+    }
+    
+    #sintomas{
+        position: absolute;
+        color: rgba(17, 70, 171, 1);
+        width: 70%;
+        font-size: 15px;
+        left: -35px;
+        padding-top: 148px;
+        font-family: "fonte1";
+        float: left;
+        text-align: left;
+        line-height: 20px;
+        font-weight: 500;
+    }
+    
+    #tratamento h2{
+        text-align: left;
+        padding-top: 10px;
+    }
+    .baixo{
+        width: 100%;
+    }
+    
+    #tratamento{
+        position: absolute;
+        float: left;
+        color: rgba(17, 70, 171, 1);
+        width: 30%;
+        height: 600px;
+        text-align: right;
+        line-height: 20px;
+        font-weight: 500;
+        font-family: "fonte1";
+        left: 330px;
+        padding-left: 0px;
+        padding-top: 148px;
+        font-size: 15px;
+    }
+
+    #titulo_baixo p{
+        color: rgba(12, 50, 167, 1);
+        font-family: "fonte1";
+        font-size: 35px;
+        float: left;
+        text-align: center;
+        padding-left: 15%;
+        padding-top: 40px;
+        width: 98%;
+    }
+    #texto_baixo1, #texto_baixo2{
+        width: 100%;
+    }
+    #texto_baixo1 p{
+        font-size: 20px;
+        font-family: "fonte1";
+        padding-top: 40px;
+        padding-left: 10px;
+        line-height: 50px;
+        color: #171717;
+        font-style: normal;
+        width: 95%;
+    }
+
+    #texto_baixo2 p{
+        font-size: 17px;
+        font-family: "fonte1";
+        padding-left: 10px;
+        line-height: 30px;
+        color: #171717;
+        font-style: normal;
+        width: 97%;
+    }
+    
+    #img_nov_azul{
+      display: none;
+    }
+
+
+.meio{
+    display: none;
+}
+    footer{
+        width: 100%;
+        height: auto;
+        background-color: black;
+        float: left;
+    }
+    #logo_rodape{
+        width: 25%;
+    }
+    #logo_rodape img{
+        width: 100%;
+    }
+    #linha-reta{
+        display: none;
+    }
+    #lado{
+        display: flex;
+    }
+    #acessibilidade, #suporte{
+        width: auto;
+        font-size: 12px;
+        float: left;
+        margin: 3%;
+    }
+    #social a img{
+        width: 30px;
+    }
+}

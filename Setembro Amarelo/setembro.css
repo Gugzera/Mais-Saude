@@ -1,0 +1,418 @@
+/* CSS reset */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+*{
+    padding: 0;
+    border: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    /* background-color: black; */
+    width: 100%;
+    height: 100px;
+}
+#fundo{
+    width: 100%;
+    background-image: url(imagens-setembro/fundo-setembro.png);
+    background-repeat: no-repeat;
+    background-size: 160%;
+    height: auto;
+    background-color: #fdff82;
+}
+.logo{
+    width: 100%;
+    height: 100px;
+    float: left;
+}
+
+#logo{
+    width: 4rem;
+    height: 2.5rem;
+}
+#menu-principal{
+    display: flex;
+    flex-direction: row;
+}
+#titulo-menu{
+    font-weight: bolder; 
+    background: linear-gradient(96.14deg, #282C3F -10.84%, #3DFF44 92.95%, #3DFF44 196.74%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+}
+#titulo-menu img{
+    position: relative;
+    margin-right: 8%;
+}
+#offcanvasNavbar {
+    background-color: #fdff82;
+}
+/*teste wave*/
+
+
+/**/
+
+/*fim menu*/
+#comeco{
+    display: flex;
+   justify-content: space-between;
+}
+#texto1{
+    width: 40%;
+    font-size: 25px;
+    line-height: 55px;
+    margin-left: 5%;
+    margin-top: 3%;
+    float: left;
+}
+#comeco-direita{
+    width: 45%;
+}
+
+#comeco h1{
+    color: green;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 25px;
+    float: left;
+}
+#comeco img{
+    width: 90%;
+    margin: auto;
+    position: relative;
+    height: auto;
+}
+
+
+#img-relato{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    border-radius: 10%;
+    height: 350px;    
+    opacity: 0.9;
+
+}
+#relato p{
+    text-align: center;
+    color: #a1a1a1;
+}
+#img-relato img{
+    border-radius: 10%;
+}
+#fundo2{
+    background-color: #fdff82;
+    height: auto;
+    margin-top: 4%;
+
+    /* background: linear-gradient(180deg, #FDFF93 82.02%, #FFFFFF 100%); */
+}
+#conteudos{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4%;
+}
+#titulo2{
+    color: rgb(109, 109, 0);
+    background-color: #fdff82;
+    margin: 0 auto;
+    text-align: center;
+
+}
+#img-meio{
+    height: 350px;
+    display: flex;
+    align-items: center;
+}
+#card-esquerda{
+    width:25%;
+    height: auto;
+    float: left;
+}
+#card-direita{
+    width:25%;
+    height: auto;
+    float: left;
+}
+.card-setembros{
+    background-color: #f7fa54;
+    color: #171717;
+    border-radius: 15px ;
+    height: auto;
+    width: 100%;
+    margin:10px;
+    float:left;
+    padding: 0 0 1.5% 0;
+    margin-bottom: 30px;
+}
+.card-setembros h3{
+    text-align: center;
+}
+.card-setembros p{
+    margin: 5px;
+}   
+.card-setembros img{
+    padding: 0%;
+    margin: 0;
+    width: 100%;
+    height: 182px;
+    border-radius:15px ;
+}
+.btn{
+    margin-left: 5%;
+    height: auto;
+    width: auto;
+}
+
+#conteudos img{
+    float: left;
+}
+#fundo3 a{
+    text-decoration: none;
+
+}
+#fundo3{
+    height: auto;
+    background: linear-gradient(180deg, #fdff82 82.02%, #FFFFFF 100%);
+    margin: 4% auto;
+}
+
+#titulo{
+    color: rgb(109, 109, 0);
+    text-align: center;
+    font-size: 40px;
+}
+
+#ajuda{
+    font-size: 50px;
+    padding-left: 90px;
+    margin: 0 auto 3% auto;
+
+}
+
+.txt{
+    font-size: 25px;
+    width: 45%;
+    float: left;
+    padding-left: 90px;
+    line-height: 45px
+}
+
+#wave{
+    margin-bottom: -10px;
+}
+
+
+/*rodape*/
+
+footer{
+    width: 100%;
+    height: 185px;
+    background-color: black;
+    float: left;
+}
+
+#logo_rodape{
+    /* background-color: white; */
+    width: 20%;
+    height: 100%;
+    float: left;
+    text-align: center;
+}
+
+#logo_rodape img{
+    width: 70%;
+    height: 80%;
+    padding-top: 30px;
+    margin-left: 50px;
+}
+
+#linha{
+    width: 0,1%;
+    height: 100%;
+    position: relative;
+    float: left;
+    background-color: #000000;
+}
+
+#linha img{
+    width: 100%;
+    height: 93%;
+    margin-top: 6px;
+}
+
+
+#acessibilidade{
+    width: 20%;
+    height: 50%;
+    float: left;
+    text-align: left;
+    margin-left: 130px;
+    font-size: 13px;
+    font-family: "fonte1";
+    top: 20px;
+    margin-top: 12px;
+}
+
+#acessibilidade h6{
+    margin: 20px;
+    margin-top: 20px;
+    color: white;
+}
+
+#acessibilidade a{
+    text-decoration: none;
+    margin: 20px;
+    color: white;
+}
+
+#acessibilidade a:hover{
+    color: #65A8FB;
+}
+
+#suporte{
+    width: 20%;
+    height: 50%;
+    float: left;
+    text-align: left; 
+    font-size: 13px;
+    font-family: "fonte1";
+    top: 20px;
+    margin-top: 30px;
+}
+
+#suporte h6{
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+}
+
+#suporte a{
+    text-decoration: none;
+    color: white;
+}
+
+#suporte a:hover{
+    color: #65A8FB;
+}
+
+#social{
+    font-size: 13px;
+    font-family: "fonte1";
+    color: white;
+    top: 30px;
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+
+#social h6{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+#social img{
+    width: 15%;
+    height: 23%;
+    margin: 5px;
+}
+#lado{
+    display: none;
+}
+
+
+@media only screen and (max-width:480px) {
+   
+    
+    #fundo{
+        width: 100%;
+        background-size: 360%;
+        height: 2900px;
+    }
+    .navbar{
+        max-width: 480px;
+    }
+    #fundo3{
+        height: auto;
+        background-color: #3DFF44;
+    }
+    #comeco{
+        display: flex;
+        flex-direction: column;
+    }
+    #texto1{
+        width: 100%;
+        height: auto;
+    }
+    #texto1{
+        font-size: 19px;
+        margin-bottom: 10px;
+
+    }
+    #ajuda{     
+    background-color: #fdff82;
+    }
+    #comeco-direita{
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
+    }
+    #comeco-direita img{
+        width: 80%;
+        margin: -10% auto 0 10%;
+        height: 70%;
+
+    }
+    #fundo2{
+        width: 100%;
+        height: auto;
+    }
+    #conteudos{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+    #card-esquerda, #card-direita, .txt{
+        width: 80%;
+        margin: auto;
+    }
+    .txt{
+        width: 92%;
+        margin: auto;
+        margin-bottom: 10%;
+        font-size: 17px;
+    }
+
+
+
+    footer{
+        width: 100%;
+        height: auto;
+        background-color: black;
+        float: left;
+    }
+    #logo_rodape{
+        width: 25%;
+    }
+    #logo_rodape img{
+        width: 100%;
+    }
+    #linha-reta, #relato, #img-meio{
+        display: none;
+    }
+    #lado{
+        display: flex;
+    }
+    #acessibilidade, #suporte{
+        width: auto;
+        font-size: 12px;
+        float: left;
+        margin: 3%;
+    }
+    #social a img{
+        width: 30px;
+    }
+
+}

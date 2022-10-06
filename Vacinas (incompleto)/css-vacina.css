@@ -1,0 +1,390 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+#cor-fundo{
+    background-image: url(imagens-vacina/fundo-vacinas.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #9AC1F1;
+    height: auto;
+    width: 100%;
+}
+#gradiente{
+    background: linear-gradient(180deg, rgba(154,193,241,1) 0%, rgba(154,193,241,1) 35%, rgba(241,241,241,1) 77%);
+}
+main{
+    width: 94%;
+    height: auto;
+    margin: auto;
+}
+header{
+    /* background-color: black; */
+    width: 100%;
+    height: 100px;
+}
+
+.logo{
+    background-color:#eb76f6;
+    width: 100%;
+    height: 100px;
+    float: left;
+}
+
+#logo{
+    width: 4rem;
+    height: 2.5rem;
+}
+#menu-principal{
+    display: flex;
+    flex-direction: row;
+}
+#titulo-menu{
+    font-weight: bolder; 
+    background: linear-gradient(96.14deg, #282C3F -10.84%, #3DFF44 92.95%, #3DFF44 196.74%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+}
+#titulo-menu img{
+    position: relative;
+    margin-right: 8%;
+}
+#offcanvasNavbar {
+    background-color: #ffef93;
+}
+h2{
+    color: #0C32A7;
+    height: auto;
+    text-align: center;
+    font-weight: bolder;
+}
+
+#texto1 {
+    margin: auto;
+    margin-top: 4%;
+    height: 300px;
+    width: 44%;
+    display:flex;
+    float: left;
+}
+#texto1 p{
+    font-size: 28px;
+}
+
+#imagem1 {
+    width: 50%;
+    display: flex;
+    float: left;
+    height: 600px;
+    margin-left: 5%;
+    margin-top: -7%;
+}
+#imagem1 img {
+    height: 95%;
+    width: 95%;
+}
+#campanhas{
+    height: auto;
+    margin-bottom: 502px;
+}
+#gotinha{
+    margin-top: -3%;
+    width:30%;
+    display: flex;
+    float: left;
+    height: 700px;
+}
+#gotinha img{
+    height: 100%;
+    width: 100%; 
+}
+
+#vacina{
+    width:70%;
+    height: auto;
+    float: left;
+}
+.vacinas{
+    background-color: #88BDFF;
+    color: #171717;
+    border-radius: 15px;
+    height: auto;
+    width: 30%;
+    margin:10px;
+    float:left;
+    padding: 0 0 1.5% 0;
+    margin-bottom: 30px;
+}
+.vacinas h3{
+    text-align: center;
+}
+.vacinas p{
+    margin: 5px;
+}   
+.vacinas img{
+    width: 100%;
+    height: 182px;
+    border-radius:15px ;
+}
+.btn{
+    margin-left: 5%;
+    height: auto;
+    width: auto;
+}
+
+#mapa{
+    margin: 501px auto;
+}
+#mapa h2 b{
+    margin-top: 25px;
+}
+#busca{
+    margin-top: 3%;
+    width: 45%;
+    color: #0C32A7;
+    text-align: center;
+}
+#busca input{
+    margin: 2% auto 0 auto;
+    width: 60%;
+    padding: 1.5% 5%;
+    background-color: #65A8FB;
+    border: none;
+    border-radius: 30px;
+    color: #383838;
+}
+
+#local{
+    position: relative;
+    width:96%;
+    margin: auto;
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#local img{
+    margin: 4% auto;
+    width:45%;
+    height:430px;
+}
+/*rodape*/
+
+footer{
+    width: 100%;
+    height: 185px;
+    background-color: black;
+    float: left;
+}
+
+#logo_rodape{
+    /* background-color: white; */
+    width: 20%;
+    height: 100%;
+    float: left;
+    text-align: center;
+}
+
+#logo_rodape img{
+    width: 70%;
+    height: 80%;
+    padding-top: 30px;
+    margin-left: 50px;
+}
+
+#linha{
+    width: 0,1%;
+    height: 100%;
+    position: relative;
+    float: left;
+    background-color: #000000;
+}
+
+#linha img{
+    width: 100%;
+    height: 93%;
+    margin-top: 6px;
+}
+
+
+#acessibilidade{
+    width: 20%;
+    height: 50%;
+    float: left;
+    text-align: left;
+    margin-left: 130px;
+    font-size: 13px;
+    font-family: "fonte1";
+    top: 20px;
+    margin-top: 12px;
+}
+
+#acessibilidade h6{
+    margin: 20px;
+    margin-top: 20px;
+    color: white;
+}
+
+#acessibilidade a{
+    text-decoration: none;
+    margin: 20px;
+    color: white;
+}
+
+#acessibilidade a:hover{
+    color: #65A8FB;
+}
+
+#suporte{
+    width: 20%;
+    height: 50%;
+    float: left;
+    text-align: left; 
+    font-size: 13px;
+    font-family: "fonte1";
+    top: 20px;
+    margin-top: 30px;
+}
+
+#suporte h6{
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+}
+
+#suporte a{
+    text-decoration: none;
+    color: white;
+}
+
+#suporte a:hover{
+    color: #65A8FB;
+}
+
+#social{
+    font-size: 13px;
+    font-family: "fonte1";
+    color: white;
+    top: 30px;
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+
+#social h6{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+#social img{
+    width: 15%;
+    height: 23%;
+    margin: 5px;
+}
+#lado{
+    display: none;
+}
+@media only screen and (max-width:480px) {
+    #cor-fundo{
+        background-size: 170%;
+        width: 100%;
+
+    }
+    main{
+        width: 98%;
+    }
+    .container-fluid{
+        padding: 0px;
+    }
+    .navbar{
+        max-width: 480px;
+    }
+    
+    #titulo-menu{
+        width: 120%;
+    }
+    #topo{
+        display: flex;
+        flex-direction: column;
+    }
+    #texto1{
+        width: 100%;
+        height: auto;
+    }
+    #texto1 p{
+        font-size: 19px;
+
+    }
+    #imagem1{
+        width: 90%;
+        height: auto;
+    }
+    #imagem1 img{
+        width: 80%;
+        margin: 0 auto;
+        height: 70%;
+    }
+
+
+    #campanhas{
+        height: auto;
+        width: 100%;
+    }
+    #vacina{
+        width: 100%;
+
+    }
+    .vacinas{
+        width: 40%;
+        height: 405px;
+    }
+
+
+    #busca{
+        width: 100%;
+        margin-bottom: 5%;
+    }
+    #local iframe{
+        margin: auto;
+        width: 80%;
+        height: 200px;
+        margin-bottom: 5%;
+
+    }
+    #local img, #gotinha{
+        display: none;
+    }
+    footer{
+        width: 100%;
+        height: auto;
+        background-color: black;
+        float: left;
+    }
+    #logo_rodape{
+        width: 25%;
+    }
+    #logo_rodape img{
+        width: 100%;
+    }
+    #linha-reta{
+        display: none;
+    }
+    #lado{
+        display: flex;
+    }
+    #acessibilidade, #suporte{
+        width: auto;
+        font-size: 12px;
+        float: left;
+        margin: 3%;
+    }
+    #social a img{
+        width: 30px;
+    }
+
+}
