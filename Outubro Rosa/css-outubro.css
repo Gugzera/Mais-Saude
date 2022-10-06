@@ -215,7 +215,7 @@ header{
 .baixo{
     width: 100%;
     height: 700px;
-    background: linear-gradient(180deg, rgba(223, 145, 229, 0.91425) 64.83%, #FFFFFF 83.58%);
+    background: linear-gradient(180deg, rgba(254,254,254,1) 0%, rgba(223,145,229,1) 55%, rgba(223,145,229,0.98) 78%, rgba(232,118,228,0.9472163865546218) 100%);
     float: left;
     position: relative;
 }
@@ -345,7 +345,7 @@ footer{
     font-size: 13px;
     font-family: "fonte1";
     top: 20px;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 #suporte h6{

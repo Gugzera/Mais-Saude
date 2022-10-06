@@ -210,7 +210,7 @@ header{
 
 footer{
     width: 100%;
-    height: 185px;
+    height: auto;
     background-color: black;
     float: left;
 }
@@ -232,7 +232,7 @@ footer{
 
 #linha{
     width: 0,1%;
-    height: 100%;
+    height: 150px;
     position: relative;
     float: left;
     background-color: #000000;
@@ -306,6 +306,7 @@ footer{
     width: 20%;
     height: 100%;
     float: left;
+    margin-top: 30px;
 }
 
 #social h6{
@@ -329,7 +330,7 @@ footer{
     #fundo{
         width: 100%;
         background-size: 360%;
-        height: 2900px;
+        height: auto;
     }
     .navbar{
         max-width: 480px;
@@ -343,7 +344,7 @@ footer{
         flex-direction: column;
     }
     #texto1{
-        width: 100%;
+        width: 90%;
         height: auto;
     }
     #texto1{
@@ -368,6 +369,12 @@ footer{
     #fundo2{
         width: 100%;
         height: auto;
+    }
+    #fundo3{
+        width: 100%;
+        height: auto;
+        background: linear-gradient(180deg, #fdff82 82.02%, #FFFFFF 100%);
+
     }
     #conteudos{
         display: flex;
