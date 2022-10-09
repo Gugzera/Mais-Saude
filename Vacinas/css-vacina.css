@@ -22,6 +22,10 @@ main{
     height: auto;
     margin: auto;
 }
+.container-fluid{
+    padding: 0;
+    width: 97vw;
+}
 header{
     /* background-color: black; */
     width: 100%;
@@ -58,6 +62,9 @@ header{
 #offcanvasNavbar {
     background-color: #ffef93;
 }
+.navbar{
+    width: 97vw;
+}
 h2{
     color: #0C32A7;
     height: auto;
@@ -68,13 +75,17 @@ h2{
 #texto1 {
     margin: auto;
     margin-top: 4%;
+    /* color: #171717; */
+    font-weight: 300;
     height: 300px;
     width: 44%;
     display:flex;
     float: left;
 }
 #texto1 p{
-    font-size: 28px;
+    font-size: 26px;
+    line-height: 50px;
+    color: #e3e3e3;
 }
 
 #imagem1 {
@@ -111,6 +122,14 @@ h2{
     float: left;
 }
 .vacinas{
+    box-shadow:
+  2.8px 2.8px 2.2px rgba(0, 0, 0, 0.017),
+  6.7px 6.7px 5.3px rgba(0, 0, 0, 0.024),
+  12.5px 12.5px 10px rgba(0, 0, 0, 0.03),
+  22.3px 22.3px 17.9px rgba(0, 0, 0, 0.036),
+  41.8px 41.8px 33.4px rgba(0, 0, 0, 0.043),
+  100px 100px 80px rgba(0, 0, 0, 0.06)
+;
     background-color: #88BDFF;
     color: #171717;
     border-radius: 15px;
@@ -140,6 +159,7 @@ h2{
 
 #mapa{
     margin: 501px auto;
+    
 }
 #mapa h2 b{
     margin-top: 25px;
@@ -151,13 +171,20 @@ h2{
     text-align: center;
 }
 #busca input{
+    box-shadow:
+    2.8px 4.5px 2.2px rgba(0, 0, 0, 0.017),
+    6.7px 10.8px 5.3px rgba(0, 0, 0, 0.024),
+    12.5px 20.4px 10px rgba(0, 0, 0, 0.03),
+    22.3px 36.4px 17.9px rgba(0, 0, 0, 0.036),
+    41.8px 68.1px 33.4px rgba(0, 0, 0, 0.043),
+    100px 163px 80px rgba(0, 0, 0, 0.06);
     margin: 2% auto 0 auto;
     width: 60%;
     padding: 1.5% 5%;
-    background-color: #65A8FB;
+    background-color: #c6e0ff;
     border: none;
     border-radius: 30px;
-    color: #383838;
+    color: #fdfdfd;
 }
 
 #local{
@@ -168,6 +195,17 @@ h2{
     align-items: center;
     flex-direction: row;
     justify-content: space-between;
+}
+#google{
+    box-shadow:
+  2.8px 2.8px 2.2px rgba(0, 0, 0, 0.017),
+  6.7px 6.7px 5.3px rgba(0, 0, 0, 0.024),
+  12.5px 12.5px 10px rgba(0, 0, 0, 0.03),
+  22.3px 22.3px 17.9px rgba(0, 0, 0, 0.036),
+  41.8px 41.8px 33.4px rgba(0, 0, 0, 0.043),
+  100px 100px 80px rgba(0, 0, 0, 0.06)
+;
+
 }
 #local img{
     margin: 4% auto;
@@ -291,12 +329,12 @@ footer{
 }
 @media only screen and (max-width:480px) {
     #cor-fundo{
-        background-size: 170%;
+        background-size: 210%;
         width: 100%;
 
     }
     main{
-        width: 98%;
+        width: 100vw;
     }
     .container-fluid{
         padding: 0px;
@@ -318,6 +356,9 @@ footer{
     }
     #texto1 p{
         font-size: 19px;
+        line-height: 35px;
+        margin: auto;
+        width: 90vw;
 
     }
     #imagem1{
@@ -333,15 +374,19 @@ footer{
 
     #campanhas{
         height: auto;
-        width: 100%;
+        width: 100vw;
     }
     #vacina{
-        width: 100%;
-
+        width: 95vw;
+        /* display: flex;
+        flex-direction: column; */
     }
     .vacinas{
-        width: 40%;
-        height: 405px;
+        width: 39vw;
+        height: auto;
+        float: left;
+        margin-left: 6%;
+        
     }
 
 

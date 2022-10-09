@@ -177,7 +177,9 @@ main{
 #fim i{
     font-size: 14px;
 }
-
+.hp-texto-celular{
+    display: none;
+}
 
 footer{
     width: 100%;
@@ -303,56 +305,88 @@ footer{
                 background-size: 360%;
                 height: auto;
             }
+            main p{
+                font-size: 18px;
+            }
             .navbar{
                 max-width: 480px;
             }
-            .cima{
-                width: 100vw;
-                height: 400px;
-            }
-            #titulo1{
+            #topo{
                 height: auto;
-                width: 100vw;    
-                margin: auto; 
-                padding: 0 20px;  
             }
-            #titulo1 p{
-                text-align: center;
-            }
-            #texto1{
-                width: 98%;
-               
-                margin-top: 15%;
-            }
-            #texto1 p{
-                width: 98%;
-                font-size: 16px;
-                line-height: 50px;
-                font-weight: 200;
-                padding: 0;
-                margin: 5px auto;
-            }
-
-
-            .meio, #imgmedico{
+            #img-topo{
                 display: none;
             }
-        
-            .baixo{
+            #texto-topo{
+                width: 100vw;
+                height: 100%;
+                margin: 3%;
+                display: block;
+            }
+            #texto-topo p{
+                margin: 2% auto;
+            }
+
+            #meio{
+                height: auto;
+                width: 100vw;
+            }
+            #conteudo-meio{
                 height: auto;
                 display: flex;
                 flex-direction: column;
+                width: 90vw;
             }
-            #texto_baixo1, #texto_baixo2{
-                width: 95%;
-                text-align: left;
+            #sintomas{
+                width: 100%;
+                margin: auto;
+               
             }
-            #texto_baixo1 p{
-                font-size: 16px;
+            #sintomas p, #tratamentos p, h3{
+                width: 80%;
+                margin: auto;
+                line-height: 40px;
             }
-            #texto_baixo2 p{
-                font-size: 16px;
+            #tratamentos{
+                width: 100%;
+                margin: auto;
             }
+            #laco-fundo{
+                width: 60vw;
+                height: 70vh;
+                margin-top: 40%;
+                margin-left: 30%;
+            }
+
+           .hp-direita{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                padding: 0;
+            }
+            .hp-img{
+                width: 80vw;
+                height: 45vh;
+                margin: auto;
+            }
+            .hp-img img{
+                margin: auto;
+                width: 100%;
+            }
+            .desktop{
+                display: none;
+            }
+            .hp-texto-celular{
+                display: block;
+            }
+            .hp-texto-celular, .hp-texto{
+                width: 80vw;
+                margin: 3% auto;
+                font-size: 18px;
+                line-height: 35px;
+            }
+
+
             footer{
                 width: 100vw;
                 height: auto;
@@ -360,10 +394,10 @@ footer{
                 float: left;
             }
             #logo_rodape{
-                width: 25%;
+                width: 25vw;
             }
             #logo_rodape img{
-                width: 100vw;
+                width: 100%;
             }
             #linha-reta, #relato, #img-meio{
                 display: none;
@@ -371,11 +405,15 @@ footer{
             #lado{
                 display: flex;
             }
+            
             #acessibilidade, #suporte{
                 width: auto;
                 font-size: 12px;
                 float: left;
                 margin: 3%;
+            }
+            #suporte{
+                margin-top: 7%;
             }
             #social a img{
                 width: 30px;
