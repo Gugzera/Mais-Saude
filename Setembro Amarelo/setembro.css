@@ -114,6 +114,7 @@ header{
     display: flex;
     justify-content: space-around;
     margin-top: 4%;
+    width: 100%;
 }
 #titulo2{
     color: rgb(109, 109, 0);
@@ -130,12 +131,12 @@ header{
 #card-esquerda{
     width:25%;
     height: auto;
-    float: left;
+    
 }
 #card-direita{
     width:25%;
     height: auto;
-    float: left;
+    margin-right: 7vw;
 }
 .card-setembros{
     background-color: #f7fa54;
@@ -143,9 +144,9 @@ header{
     border-radius: 15px ;
     height: auto;
     width: 100%;
-    margin:10px;
+    /* margin:10px;
     float:left;
-    padding: 0 0 1.5% 0;
+    padding: 0 0 1.5% 0; */
     margin-bottom: 30px;
 }
 .card-setembros h3{
@@ -160,6 +161,9 @@ header{
     width: 100%;
     height: 182px;
     border-radius:15px ;
+}
+#img-meio{
+    margin-top: 5vh;
 }
 .btn{
     margin-left: 5%;

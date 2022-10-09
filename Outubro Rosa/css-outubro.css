@@ -1,276 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
 *{
     border: 0;
     margin: 0;
     padding: 0;
-}
-
-@font-face {
-    font-family: 'fonte1';
-    src: url(fontes/Poppins/Poppins-Bold.ttf);
+    font-family: 'Poppins', sans-serif;
 }
 
 
 main{
-    background-color: #E294E7;
+    background-color: #DF91E5;
     width: 100%;
     height: auto;
 }
 
-header{
-    background-color: black;
-    width: 100%;
-    height: 80px;
-}
-
-.logo{
-    background: #DF91E5;
-    width: 100%;
-    height: 80px;
-    float: left;
-}
 
 #logo{
+    margin-left: 3.4rem;
     width: 4rem;
     height: 2.5rem;
+}
+.container-fluid{
+    padding: 0;
+    width: 97vw;
 }
 #menu-principal{
     display: flex;
     flex-direction: row;
 }
 #titulo-menu{
-    font-family: "fonte1";
-    /* font-weight: bolder; */
-    background: linear-gradient(96.14deg, #282C3F -10.84%, #3DFF44 92.95%, #3DFF44 196.74%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-
+    font-weight: bolder;
+    color: #1d8b28;
+    width: auto;
 }
 #titulo-menu img{
     position: relative;
-    margin-right: 8%;
+    margin-right: 1.4vw;
 }
 #offcanvasNavbar {
-    background-color: #E294E7;
+    background-color: #ca9fce;
+}
+.navbar{
+    width: 97vw;
 }
 
-
-.cima{
+#fundo-topo{
     width: 100%;
-    height: 800px;
-    float: left;
-    background: #E294E7;
+    margin: 0;
+    height: auto;
+    background-image: url(img/fundo.png);
+    background-repeat: no-repeat; 
 }
-
-#formaimg{
-    width: 100%;
-    height: 650px;
-    position: relative;
-    float: left;
+#topo{
+    width: 96vw;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    /* margin-top: 10vh; */
 }
-
-#titulo1{
-    position: absolute;
-    width: 100%;
+.titulo{
+    color: #A10CD6;
     text-align: center;
-    float: left;
+    font-size: 44px;
+    margin-top: 10vh;
 }
-
-#titulo1 p{
-    position: absolute;
-    color: #5c076b;
-    font-family: "fonte1";
-    font-size: 35px;
-    padding-left: 41%;
-    padding-top: 20px;
-    float: left;
-}
-
-#texto1{
-    width: 100%;
-    position: absolute;
-    float: left;
-}
-
-#texto1 p{
-    position: absolute;
-    font-size: 27px;
-    font-family: "fonte1";
-    color: #001;
-    line-height: 70px;
-    font-weight: 530;
-    padding: 130px 70px;
-    float: left;
-    width: 55%;
-}
-
-#imgmedico{
-    width: 100%;
-    height: 530px;
-    position: absolute;
-    float: left;
-    padding-top: 150px;
-    padding-left: 700px;
-}
-
-.meio{
-    width: 100%;
-    height: 1000px;
-    background: linear-gradient(180deg, #DF91E5 82.02%, #FFFFFF 100%);
-    float: left;
-    position: relative;
-}
-
-#titulo_meio{
-    width: 100%;
-    float: left;
-    top: -300px;
-}
-
-#titulo_meio p{
-    color: #5c076b;
-    font-family: "fonte1";
-    font-size: 35px;
-    float: left;
-    text-align: center;
-    padding-left: 35%;
-    padding-top: 30px;
-    
-}
-
-
-
-
-
-#banner{
-    width: 100%;
-    height: 800px;
-    position: relative;
-}
-
-#banner img{
-    width: 98%;
-    height: 90%;
-    position: relative;
-    float: left;
-    top: 70px;
-    padding-left: 20px;
-}
-
-#sintomas h2{
-    text-align: right;
-    padding-top: 30px;
-    padding-left: 300px;
-    position: absolute;
-}
-
-#sintomas{
-    position: absolute;
-    color: rgba(82, 5, 89, 0.64);
-    width: 63%;
-    height: 700px;
-    font-size: 23px;
-    padding: 80px;
-    padding-top: 148px;
-    font-family: "fonte1";
-    float: left;
-    text-align: left;
-    line-height: 60px;
-    font-weight: 500;
-    top: 50px;
-}
-
-#tratamento h2{
-    text-align: center;
-    padding-top: 10px;
-}
-
-
-#tratamento{
-    position: absolute;
-    float: left;
-    color: rgba(82, 5, 89, 0.64);
-    width: 35%;
-    height: 700px;
-    text-align: right;
-    line-height: 47px;
-    font-weight: 500;
-    font-family: "fonte1";
-    left: 850px;
-    padding-left: 80px;
-    padding-top: 148px;
-    font-size: 23px;
-    top: 73px;
-}
-
-#laco{
-    position: absolute;
+#texto-topo{
+    width: 45vw;
+    height: auto;
+    font-size: 22px;
+    display: flex;
     align-items: center;
-    left: 55%;
-    top: 65%;
 }
-
-
-
-.baixo{
+#texto-topo p{
+    margin: auto;
+    width: 80%;
+    line-height: 38px;
+}
+#img-topo{
+    width: 48vw;
+    height: 70vh;
+    margin: 2vh;
+}
+#img-topo img{
     width: 100%;
-    height: 700px;
-    background: linear-gradient(180deg, rgba(254,254,254,1) 0%, rgba(223,145,229,1) 55%, rgba(223,145,229,0.98) 78%, rgba(232,118,228,0.9472163865546218) 100%);
-    float: left;
-    position: relative;
+    height: 100%;
 }
 
-#titulo_baixo{
+#meio{
     width: 100%;
-    float: left;
-}
-
-#titulo_baixo p{
-    color: #5c076b;
-    font-family: "fonte1";
-    font-size: 35px;
-    float: left;
-    padding-left: 35%;
-    padding-top: 40px;
-}
-
-#texto_baixo1{
-    width: 55%;
-    float: left;
-    
-}
-
-#texto_baixo1 p{
-    font-size: 21px;
-    font-family: "fonte1";
-    padding-top: 40px;
-    padding-left: 40px;
-    line-height: 45px;
+    margin-top: 15vh;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
     color: #171717;
-    font-style: normal;
+    background: linear-gradient(180deg, rgba(223,145,229,1) 0%, rgba(223,145,229,1) 76%, rgba(255,255,255,1) 100%);
+}
+#conteudo-meio{
+    display: flex;
+    flex-direction: row;
     width: 100%;
+    height: auto;
+    font-size: 20px;    
+}
+#conteudo-meio h3{
+    font-size: 28px;
+    color: #A10CD6;
+}
+#tratamentos p{
+    width: 80%;
+}
+#sintomas{
+    width: 45vw;
+    height: auto;
+    margin: auto;
+    z-index: 1;  
     
-    
+}
+#sintomas p{
+    width: 80%;
+}
+#tratamentos{
+    width: 45vw;
+    height: auto;
+    z-index: 1;  
+}
+#laco-fundo{
+    width: 60vw;
+    height: 430px;
+    position: absolute;
+    top: 140vh;
+    left: 10vw;
+    z-index: 0;
+}
+#laco-fundo img{
+    width: 45vw;
+    margin: auto;
 }
 
-#texto_baixo2{
-    width: 45%;
-    float: left;
-    
+#fim{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(244,180,249,1) 12%, rgba(223,145,229,1) 20%, rgba(223,145,229,1) 89%, rgba(255,255,255,1) 100%);
+}
+#fim h2{
+    margin-bottom: 8vh;
+}
+.hp-direita{
+    width: 90vw;
+    margin: 3% auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+.hp-img{
+    width: 30vw;
+    height: 35vh;
+}
+.rapunzel{
+    cursor: pointer;
+}
+.hp-img img{
+    border-radius: 25px;
+    height: 100%;
+    width: 90%;
+    margin: auto;
+}
+.hp-texto{
+    width: 60vw;
+    margin: auto;
+    font-size: 18px;
+    line-height: 55px;
+}
+#fim i{
+    font-size: 14px;
 }
 
-#texto_baixo2 p{
-    font-size: 21px;
-    font-family: "fonte1";
-    padding-top: 40px;
-    padding-right: 40px;
-    padding-left: 100px;
-    line-height: 40px;
-    color: #171717;
-    font-style: normal;
-    width: 100%;
-    text-align: right;
-}
 
 footer{
     width: 100%;
@@ -392,7 +299,7 @@ footer{
            
             
             main{
-                width: 100%;
+                width: 100vw;
                 background-size: 360%;
                 height: auto;
             }
@@ -400,12 +307,12 @@ footer{
                 max-width: 480px;
             }
             .cima{
-                width: 100%;
+                width: 100vw;
                 height: 400px;
             }
             #titulo1{
                 height: auto;
-                width: 100%;    
+                width: 100vw;    
                 margin: auto; 
                 padding: 0 20px;  
             }
@@ -447,7 +354,7 @@ footer{
                 font-size: 16px;
             }
             footer{
-                width: 100%;
+                width: 100vw;
                 height: auto;
                 background-color: black;
                 float: left;
@@ -456,7 +363,7 @@ footer{
                 width: 25%;
             }
             #logo_rodape img{
-                width: 100%;
+                width: 100vw;
             }
             #linha-reta, #relato, #img-meio{
                 display: none;
