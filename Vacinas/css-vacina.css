@@ -49,12 +49,9 @@ header{
     flex-direction: row;
 }
 #titulo-menu{
-    font-weight: bolder; 
-    background: linear-gradient(96.14deg, #282C3F -10.84%, #3DFF44 92.95%, #3DFF44 196.74%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-
+    font-weight: bolder;
+    color: #1d8b28;
+    width: auto;
 }
 #titulo-menu img{
     position: relative;
@@ -86,7 +83,7 @@ h2{
 #texto1 p{
     font-size: 26px;
     line-height: 50px;
-    color: #e3e3e3;
+    color: #212121;
 }
 
 #imagem1 {
@@ -132,7 +129,7 @@ h2{
   100px 100px 80px rgba(0, 0, 0, 0.06)
 ;
     background-color: #88BDFF;
-    color: #171717;
+    color: #1f1f1f;
     border-radius: 15px;
     height: auto;
     width: 30%;
@@ -143,6 +140,7 @@ h2{
 }
 .vacinas h3{
     text-align: center;
+    color: #315feb;
 }
 .vacinas p{
     margin: 5px;
@@ -337,6 +335,9 @@ footer{
     main{
         width: 100vw;
     }
+    #titulo-menu{
+        color: transparent;
+    }
     .container-fluid{
         padding: 0px;
     }
@@ -428,6 +429,9 @@ footer{
         font-size: 12px;
         float: left;
         margin: 3%;
+    }
+    #suporte{
+        margin-top: 7%;
     }
     #social a img{
         width: 30px;

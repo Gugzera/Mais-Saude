@@ -18,7 +18,7 @@
             <header id="menu-principal">
                 <nav class="navbar bg-light-green fixed-top">
                     <div class="container-fluid">
-                      <a class="navbar-brand" href="#"><h2 id="titulo-menu"><img src="imagens/logo.png" alt="" id="logo">Mais Saúde</h2></a>
+                      <a class="navbar-brand" href="#inicio"><h2 id="titulo-menu"><img src="imagens/logo.png" alt="" id="logo">Mais Saúde</h2></a>
                       <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                         <span class="navbar-toggler-icon"></span>
                       </button>
@@ -30,12 +30,12 @@
                         <div class="offcanvas-body">
                           <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                             <li class="nav-item">
-                              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                              <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
                             </li>
                             <li class="nav-item">
                               <a class="nav-link active" href="#">Login</a>
                               <a class="nav-link" href="#sobre">Sobre Nós</a>
-                              <a class="nav-link" href="#">Delivery</a>
+                              <a class="nav-link" href="#delivery">Delivery</a>
                               <a class="nav-link" href="https://linktr.ee/maissaude06" target="_blank">Contatos</a>
                             </li>
                             <li class="nav-item dropdown">
@@ -57,8 +57,7 @@
                   </nav>
             </header>
             <a name="inicio">
-
-            <section id="esquerda-topo-principal">
+              <section id="esquerda-topo-principal">
                 <img src="imagens/logo2.png" alt="">
                 <h1 id="titulo-verde">Nunca foi tão fácil</h1>
                 <h1 id="titulo-preto">Encontrar informações sobre saúde</h1>
@@ -67,10 +66,10 @@
             <section id="direita-topo-principal">
                 <img src="imagens/medico-principal.png" alt="">
             </section>
-        </article>  
-        <div class="titulo-campanhas">
-          <h2>Campanhas</h2>
-        </div>
+        </article>
+        
+        <section class="divisao-componentes-carrossel"></section>
+
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
           <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -80,16 +79,16 @@
           </div>
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="./imagens/setembropq.png" class="d-block w-100" alt="...">
+              <img src="./imagens/setembroamarelo.png" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-              <img src="./imagens/outubrorosapq.png" class="d-block w-100" alt="...">
+              <img src="./imagens/outubrorosa.png" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-              <img src="./imagens/campanhapq.png" class="d-block w-100" alt="...">
+              <img src="./imagens/campanhavacinas.png" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-              <img src="./imagens/novemberazul.png" class="d-block w-100" alt="...">
+              <img src="./imagens/novembroazul.png" class="d-block w-100" alt="...">
             </div>
           </div>
           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -102,6 +101,7 @@
           </button>
         </div>
 
+        <section class="divisao-componentes"></section>
 
        <div class="cordelivery">
          <div class="pagina_delivery">
@@ -118,10 +118,11 @@
           </article>
         </section>
         </div>
+        <a name="delivery">
         <div id="pgDeliveryCont">
           <section id="form_delivery">
             <form action="/action_page.php" method="get">
-              <h3>Cadastre suas informações</h3>
+              <br><h3>Cadastre suas informações</h3>
               <label for="fname">Digite seu nome: </label><br>
               <input type="text" id="fname" name="fname" class="estilo_form"><br><br>
               <label for="contel">Digite seu telefone para contato</label><br>
@@ -135,21 +136,45 @@
             <img src="./imagens/Delivery address-bro (1).png" alt="" class="estilo_entregador" >
           </section>
         </div>
-        </div>
+      </div>
 
-        <a name="sobre">
-
+        <section class="divisao-componentes"></section>
+        <section class="ajuste-sobre-nos"></section>
+        <a name="sobre"></a>
         <div class="sobrenos">
-          <h4>Sobre Nós</h4>
+          <h4>Sobre Nós</h4> 
           <section id="conteudo_sobrenos">
-              <img src="./imagens/sobrenos.png" alt="">
+            <div class="texto-sobre-nos">
+              <p>A internet apesar de muito <br>
+                vasta, ainda existe
+                <br> uma certa escassez 
+              </p>
+            </div>
+            <div class="texto-sobre-nos">
+              <p>quando se trata de deter <br> minados assuntos. <br> 
+                 Um desses assuntos
+              </p>
+            </div>
+            <div class="texto-sobre-nos">
+              <p> é a questão da saúde. <br>
+                Dessa necessidade surge o <br>
+                Mais Saúde. 
+              </p>
+            </div>
+            <div class="texto-sobre-nos">
+              <p>
+                Precisa dessas informações. Seja <br>
+                A localidade de um posto de saúde, <br>
+                ou para ter algum tipo de ajuda    <br>            
+                psicologica
+              </p>
+            </div>
           </section>
           
           <section id="imagem_hospital">
               <img src="./imagens/hospital.png" alt="">
           </section>
         </div>
-
 
         <footer>
           <section id="logo_rodape">

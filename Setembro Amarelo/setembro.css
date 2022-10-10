@@ -36,12 +36,9 @@ header{
     flex-direction: row;
 }
 #titulo-menu{
-    font-weight: bolder; 
-    background: linear-gradient(96.14deg, #282C3F -10.84%, #3DFF44 92.95%, #3DFF44 196.74%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-
+    font-weight: bolder;
+    color: #1d8b28;
+    width: auto;
 }
 #titulo-menu img{
     position: relative;
@@ -258,7 +255,7 @@ footer{
 
 #linha{
     width: 0,1%;
-    height: 100%;
+    height: 150px;
     position: relative;
     float: left;
     background-color: #000000;
@@ -266,7 +263,7 @@ footer{
 
 #linha img{
     width: 100%;
-    height: 93%;
+    height:95%;
     margin-top: 6px;
 }
 
@@ -358,6 +355,9 @@ footer{
         background-size: 360%;
         height: auto;
     }
+    #titulo-menu{
+        color: transparent;
+    }
     .navbar{
         max-width: 480px;
     }
@@ -437,17 +437,24 @@ footer{
     #logo_rodape img{
         width: 100%;
     }
+    #linha{
+        height: auto;
+    }
     #linha-reta, #relato, #img-meio{
         display: none;
     }
     #lado{
         display: flex;
     }
+    
     #acessibilidade, #suporte{
         width: auto;
         font-size: 12px;
         float: left;
         margin: 3%;
+    }
+    #suporte{
+        margin-top: 7%;
     }
     #social a img{
         width: 30px;

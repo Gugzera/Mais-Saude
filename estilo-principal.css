@@ -9,26 +9,24 @@
 main{
     width: 100%;
     height: auto;
+    /* background-color: #C1DEBD; */
 }
-
-#titulo-menu{
-    font-family: "fonte1";
-    /* font-weight: bolder; */
-    background: linear-gradient(96.14deg, #282C3F -10.84%, #3DFF44 92.95%, #3DFF44 196.74%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    width: 110%;
-
+.divisao-componentes{
+    width: 100%;
+    background: linear-gradient(96.14deg, #282C3F -10.84%, #19BA20 64.26%, #001801 196.74%);
+    height: 20px;
 }
-
+.divisao-componentes-carrossel{
+    width: 100%;
+    background: linear-gradient(96.14deg, #282C3F -10.84%, #19BA20 64.26%, #001801 196.74%);
+    height: 20px;
+}
 #topo{
     width: 100%;
     height: 630px;
     background-image: url(imagens/fundo-principal-verde.png);
     height: 600px;
     background-repeat: no-repeat;
-    background-color: #e2fadf;
 }
 #logo{
     margin-left: 3.4rem;
@@ -47,6 +45,13 @@ main{
     position: relative;
     margin-right: 8%;
 }
+.container-fluid{
+    padding: 0;
+    width: 97vw;
+}
+.navbar{
+    width: 97vw;
+}
 #offcanvasNavbar {
     background-color: #c1debd;
 }
@@ -57,7 +62,6 @@ main{
     top: 15%;
     left: 5%;
 }
-
 #titulo-verde{
     margin-top: 5%;
     font-size: 50px;
@@ -76,22 +80,15 @@ main{
 #direita-topo-principal{
     width: 45%;
     position: absolute;
-    left: 54%;
+    left: 57%;
     top: 10%;
 }
 #direita-topo-principal img{
    width: 90%;
    height: 520px;
 }
-.titulo-campanhas{
-    text-align: center;
-    background-color: #e2fadf;
-    height: 45px;
-    color: #19AC20;
-
-}
 #carouselExampleIndicators{
-    margin-top: 0;
+    /* margin-top: 15px; */
     width: 100%;
     height: 100%;
     background: linear-gradient(180deg, rgba(4, 89, 255, 0.53) 0%, rgba(4, 89, 255, 0) 100%);
@@ -185,14 +182,18 @@ main{
     width: 100%;
     height: 630px;
 }
+.ajuste-sobre-nos{
+    width: 100%;
+    background-color: #C1DEBD;
+    height: 100px;
+}
 .sobrenos{
-    margin-top: 100px;
+    /* margin-top: 100px; */
     width: 100%;
     height: 630px;
-    background: linear-gradient(180deg, rgba(255,255,255,0.8757878151260504) 0%, rgba(193,222,189,1) 29%, rgba(193,222,189,1) 69%, rgba(206,251,196,1) 100%);
-        color: #1B441D;
+    background-color: #C1DEBD;
+    color: #1B441D;
     text-align: center;
-    /* padding-top: 5%; */
     
 }
 .sobrenos h4{
@@ -200,19 +201,27 @@ main{
     height: 100px;
     font-weight: 700;
     font-size: 35px;
+    /* padding-bottom: 160px; */
 }
 #conteudo_sobrenos{
     height: 454px;
-    width: 50%;
+    width: 48%;
+    margin-left: 6%;
     float: left;
 }
-#conteudo_sobrenos img{
-    width: 60%;
-    height: 100%;
+.texto-sobre-nos{
+    align-items: center;
+    background-color: #1B441D;
+    height: auto;
+    width: 75%;
+    color: #fff;
+    padding-top: 2mm;
+    border: 9px solid #C1DEBD;
+    border-radius: 6mm;
 }
 #imagem_hospital{
     height: 454px;
-    width: 50%;
+    width: 46%;
     float: left;
 }
 #imagem_hospital img{
@@ -296,7 +305,7 @@ footer{
     font-size: 13px;
     font-family: "fonte1";
     top: 20px;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 #suporte h6{
@@ -337,10 +346,6 @@ footer{
     display: none;
 }
 
-/*politica de uso*/
-
-
-
  @media only screen and (max-width:480px) /* visualização mobile */
 {
 
@@ -365,7 +370,7 @@ footer{
     }
 
     #esquerda-topo-principal{
-        width: 100%;
+        width: 95vw;
         margin-left: 0px;
         margin-right: 20px;
         position: absolute;
@@ -407,6 +412,9 @@ footer{
         display: none;
     }
 
+    .divisao-componentes-carrossel{
+        display: none;
+    }
     #texto_delivery{
         text-align:left;
     }
@@ -427,21 +435,19 @@ footer{
     }
     
     .sobrenos{
-        padding-top: 5%;
+        padding-top: 4%;
         align-items: center;
         text-align: center;
     }
 
     #conteudo_sobrenos{
         height: 420px;
-        width: 100%;
+        width: 90vw;
         padding-left: 4%;
+        margin-left: 13%;
         float: left;
     }
-    #conteudo_sobrenos img{
-        width: 65%;
-        height: 100%;
-    }
+
     #imagem_hospital{
         display: none;
     }
@@ -474,6 +480,9 @@ footer{
         font-size: 12px;
         float: left;
         margin: 3%;
+    }
+    #suporte{
+        margin-top: 7%;
     }
 
     #social a img{
