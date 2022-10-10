@@ -1,15 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
 *{
-    border: 0;
-    margin: 0;
     padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+
 }
-
-@font-face {
-    font-family: 'fonte1';
-    src: url(fontes/Poppins/Poppins-Bold.ttf);
-}
-
-
 main{
     background-color: #65A8FB;
     width: 100%;
@@ -17,7 +13,7 @@ main{
 }
 
 header{
-    background-color: black;
+    /* background-color: black; */
     width: 100%;
     height: 100px;
 }
@@ -38,13 +34,11 @@ header{
     flex-direction: row;
 }
 #titulo-menu{
-    font-family: "fonte1";
-    /* font-weight: bolder; */
-    background: linear-gradient(96.14deg, #282C3F -10.84%, #3DFF44 92.95%, #3DFF44 196.74%);
+    font-weight: bolder; 
+    background: linear-gradient(96.14deg, #064306 -10.84%, #244d25 92.95%, #3DFF44 196.74%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-
 }
 #titulo-menu img{
     position: relative;
@@ -58,13 +52,14 @@ header{
 .cima{
     width: 100%;
     height: 800px;
+    margin-top: -4%;
     float: left;
     background-color: #65A8FB;
 }
 
 #formaimg{
     width: 100%;
-    height: 650px;
+    height: 615px;
     position: relative;
     float: left;
 }
@@ -76,10 +71,10 @@ header{
     float: left;
 }
 
-#titulo1 p{
+#titulo1 h2{
     position: absolute;
     color: #0C32A7;
-    font-family: "fonte1";
+   
     font-size: 35px;
     padding-left: 41%;
     padding-top: 20px;
@@ -94,11 +89,10 @@ header{
 
 #texto1 p{
     position: absolute;
-    font-size: 22px;
-    font-family: "fonte1";
-    color: #000;
+    font-size: 21px;   
+    color: #171717;
     line-height: 70px;
-    font-weight: 500;
+    font-weight: 450;
     padding: 130px 70px;
     float: left;
     width: 55%;
@@ -111,286 +105,241 @@ header{
     float: left;
     padding-top: 80px;
     padding-left: 800px;
+    z-index: 10;
 }
 
 .meio{
     width: 100%;
-    height: 1000px;
-    background: linear-gradient(180deg, #65A8FB 19.59%, rgba(101, 168, 251, 0.88) 85.66%, rgba(169, 200, 238, 0.967192) 99.99%, #F1F7FF 100%);
+    margin-top: -8%;
+    height:830px;
+    background-color: #65A8FB;
     float: left;
     position: relative;
-}
-
-#titulo_meio{
-    width: 100%;
-    float: left;
-    position: absolute;
-}
-
-#titulo_meio p{
-    color: rgba(12, 50, 167, 1);
-    font-family: "fonte1";
-    font-size: 35px;
-    float: left;
-    text-align: center;
-    padding-left: 35%;
-    position: absolute;
-}
-
-#banner{
-    width: 100%;
-    height: 800px;
-    position: relative;
-}
-
-#banner img{
-    width: 98%;
-    height: 90%;
-    position: relative;
-    float: left;
-    top: 120px;
-    padding-left: 20px;
 }
 
 #sintomas h2{
     text-align: center;
-    padding-top: 10px;
 }
 
 #sintomas{
     position: absolute;
-    color: rgba(17, 70, 171, 1);
-    width: 50%;
-    height: 700px;
-    font-size: 20px;
-    padding: 80px;
-    padding-top: 148px;
-    font-family: "fonte1";
+    color: #001A4D;
+    width: 35%;
+    font-size: 19px;   
     float: left;
     text-align: left;
-    line-height: 47px;
-    font-weight: 500;
+    line-height: 50px;
+    left: 100px;
+    letter-spacing: 0.9px;
+}
+
+#sintomas img{
+    position: absolute;
+    left: 50px;
 }
 
 #tratamento h2{
     text-align: center;
-    padding-top: 10px;
 }
 
 
 #tratamento{
-    position: absolute;
+    position: relative;
     float: left;
-    color: rgba(17, 70, 171, 1);
-    width: 35%;
-    height: 700px;
-    text-align: right;
-    line-height: 47px;
-    font-weight: 500;
-    font-family: "fonte1";
-    left: 60%;
+    color: #001A4D;
+    width: 40%;
+    height: 400px;
+    text-align: left;
+    line-height: 50px;
+    letter-spacing: 1.5px;   
+    left: 50%;
     padding-left: 80px;
-    padding-top: 148px;
-    font-size: 20px;
+    font-size: 19px;
 }
 
-.baixo{
-    width: 100%;
-    height: 900px;
-    background-color: #6dadfa;
+#tratamento img{
+    width: 140%;
+    height: 90%;
+    align-items: center;
     float: left;
+    position: absolute;
+    left: -90px;
+}
+
+#fim{
+    height: auto;
     position: relative;
+    width: 100%;
+   
+}
+#fim img{
+    width: 30vw;
+    height: 40vh;
 }
 
 #titulo_baixo{
-    width: 100%;
-    float: left;
-}
-
-#titulo_baixo p{
-    color: rgba(12, 50, 167, 1);
-    font-family: "fonte1";
-    font-size: 35px;
-    float: left;
+    margin: 5% auto;
     text-align: center;
-    padding-left: 35%;
-    padding-top: 40px;
+    
 }
-
 #texto_baixo1{
-    width: 100%;
-    float: left;
+    width: 90vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
 }
-
+h2{
+    font-weight: 600;
+    color: #001A4D;
+}
 #texto_baixo1 p{
+    line-height:50px;
     font-size: 20px;
-    font-family: "fonte1";
-    padding-top: 40px;
-    padding-left: 140px;
-    line-height: 50px;
-    color: #171717;
-    font-style: normal;
-    width: 80%;
+    margin: 5% auto;
 }
 
 #texto_baixo2{
-    width: 65%;
-    float: left;
+    width: 90vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 5% auto 0 auto;
 }
-
 #texto_baixo2 p{
+    line-height: 50px;
+    margin-left: 5%;
     font-size: 20px;
-    font-family: "fonte1";
-    padding-left: 140px;
-    line-height: 60px;
-    color: #171717;
-    font-style: normal;
-    width: 95%;
-}
+    margin-bottom: 9%;
+} 
 
-#img_nov_azul{
-    width: 30%;
-    height: 700px;
+
+/*rodape*/
+
+footer{
+    width: 100%;
+    height: 185px;
+    background-color: black;
     float: left;
-    left: 68%;
-    top: 250px;
-    position: absolute;
 }
 
-#img_nov_azul img{
-    width: 80%;
+#logo_rodape{
+    width: 20%;
+    height: 100%;
+    float: left;
+    text-align: center;
+}
+
+#logo_rodape img{
+    width: 70%;
     height: 80%;
+    padding-top: 30px;
+    margin-left: 50px;
+}
+
+#linha{
+    width: 0,1%;
+    height: 100%;
     position: relative;
-    
+    float: left;
+    background-color: #000000;
+}
+
+#linha img{
+    width: 100%;
+    height: 93%;
+    margin-top: 6px;
 }
 
 
+#acessibilidade{
+    width: 20%;
+    height: 50%;
+    float: left;
+    text-align: left;
+    margin-left: 130px;
+    font-size: 13px;
+    font-family: "fonte1";
+    top: 20px;
+    margin-top: 12px;
+}
 
-    footer{
-        width: 100%;
-        height: 185px;
-        background-color: black;
-        float: left;
-    }
-    
-    #logo_rodape{
-        /* background-color: white; */
-        width: 20%;
-        height: 100%;
-        float: left;
-        text-align: center;
-    }
-    
-    #logo_rodape img{
-        width: 70%;
-        height: 80%;
-        padding-top: 30px;
-        margin-left: 50px;
-    }
-    
-    #linha{
-        width: 0,1%;
-        height: 100%;
-        position: relative;
-        float: left;
-        background-color: #000000;
-    }
-    
-    #linha img{
-        width: 100%;
-        height: 93%;
-        margin-top: 6px;
-    }
-    
-    
-    #acessibilidade{
-        width: 20%;
-        height: 50%;
-        float: left;
-        text-align: left;
-        margin-left: 130px;
-        font-size: 13px;
-        font-family: "fonte1";
-        top: 20px;
-        margin-top: 12px;
-    }
-    
-    #acessibilidade h6{
-        margin: 20px;
-        margin-top: 20px;
-        color: white;
-    }
-    
-    #acessibilidade a{
-        text-decoration: none;
-        margin: 20px;
-        color: white;
-    }
-    
-    #acessibilidade a:hover{
-        color: #65A8FB;
-    }
-    
-    #suporte{
-        width: 20%;
-        height: 50%;
-        float: left;
-        text-align: left; 
-        font-size: 13px;
-        font-family: "fonte1";
-        top: 20px;
-        margin-top: 50px;
-    }
-    
-    #suporte h6{
-        color: rgb(255, 255, 255);
-        margin-bottom: 20px;
-    }
-    
-    #suporte a{
-        text-decoration: none;
-        color: white;
-    }
-    
-    #suporte a:hover{
-        color: #65A8FB;
-    }
-    
-    #social{
-        font-size: 13px;
-        font-family: "fonte1";
-        color: white;
-        top: 30px;
-        width: 20%;
-        height: 100%;
-        float: left;
-    }
-    
-    #social h6{
-        margin-left: 30px;
-        margin-top: 30px;
-    }
-    
-    #social img{
-        width: 15%;
-        height: 23%;
-        margin: 5px;
-    }
-    #lado{
-        display: none;
-    }
+#acessibilidade h6{
+    margin: 20px;
+    margin-top: 20px;
+    color: white;
+}
 
+#acessibilidade a{
+    text-decoration: none;
+    margin: 20px;
+    color: white;
+}
+
+#acessibilidade a:hover{
+    color: #65A8FB;
+}
+
+#suporte{
+    width: 20%;
+    height: 50%;
+    float: left;
+    text-align: left; 
+    font-size: 13px;
+    font-family: "fonte1";
+    top: 20px;
+    margin-top: 31px;
+}
+
+#suporte h6{
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+}
+
+#suporte a{
+    text-decoration: none;
+    color: white;
+}
+
+#suporte a:hover{
+    color: #65A8FB;
+}
+
+#social{
+    font-size: 13px;
+    font-family: "fonte1";
+    color: white;
+    top: 30px;
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+
+#social h6{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+#social img{
+    width: 15%;
+    height: 23%;
+    margin: 5px;
+}
+#lado{
+    display: none;
+}
 /* Responsivo - celular */
 
-@media only screen and (max-width:576px)
+@media only screen and (max-width:480px)
 {
 
     #titulo1 p{
         position: absolute;
         color: #0C32A7;
-        font-family: "fonte1";
+       
         font-size: 35px;
-        padding-left: 24%;
+        padding-left: 23%;
         padding-top: 20px;
         float: left;
     }
@@ -403,10 +352,10 @@ header{
     
     #texto1 p{
         position: absolute;
-        font-size: 22px;
-        font-family: "fonte1";
+        font-size: 15px;
+       
         color: #000;
-        line-height: 30px;
+        line-height: 39px;
         font-weight: 500;
         padding: 130px 70px;
         float: left;
@@ -433,7 +382,7 @@ header{
 
     .meio{
         width: 100%;
-        height: 650px;
+        height: 700px;
         background: linear-gradient(180deg, #65A8FB 19.59%, rgba(101, 168, 251, 0.88) 85.66%, rgba(169, 200, 238, 0.967192) 99.99%, #F1F7FF 100%);
         float: left;
         position: relative;
@@ -441,7 +390,7 @@ header{
 
     #titulo_meio p{
         color: rgba(12, 50, 167, 1);
-        font-family: "fonte1";
+       
         font-size: 35px;
         float: left;
         text-align: center;
@@ -449,122 +398,104 @@ header{
         padding-top: 30px;
     }
 
-    #banner img{
-        width: 100%;
-        height: 500px;
-        padding: 10px 5px;
+    .meio img{
+        display: none;
     }
 
     #sintomas h2{
         text-align: center;
-        padding-top: 10px;
     }
     
     #sintomas{
-        position: absolute;
+        position: relative;
         color: rgba(17, 70, 171, 1);
-        width: 70%;
+        width: 80%;
         font-size: 15px;
-        left: -35px;
-        padding-top: 148px;
-        font-family: "fonte1";
+        left: 55px;
+       
         float: left;
         text-align: left;
-        line-height: 20px;
+        line-height: 30px;
         font-weight: 500;
     }
     
     #tratamento h2{
-        text-align: left;
+        text-align: center;
         padding-top: 10px;
     }
     .baixo{
         width: 100%;
+        height: 1000px;
     }
     
+    .baixo img{
+        width: 60%;
+    }
+
     #tratamento{
-        position: absolute;
-        float: left;
+        position: relative;
         color: rgba(17, 70, 171, 1);
-        width: 30%;
+        width: 70%;
         height: 600px;
-        text-align: right;
-        line-height: 20px;
+        text-align: left;
+        line-height: 30px;
         font-weight: 500;
-        font-family: "fonte1";
-        left: 330px;
+       
+        left: 55px;
         padding-left: 0px;
-        padding-top: 148px;
+        padding-top: 20px;
         font-size: 15px;
     }
 
     #titulo_baixo p{
         color: rgba(12, 50, 167, 1);
-        font-family: "fonte1";
-        font-size: 35px;
+       
+        font-size: 25px;
         float: left;
         text-align: center;
-        padding-left: 15%;
+        padding-left: 0%;
         padding-top: 40px;
-        width: 98%;
+        width: 100%;
     }
     #texto_baixo1, #texto_baixo2{
         width: 100%;
     }
     #texto_baixo1 p{
-        font-size: 20px;
-        font-family: "fonte1";
-        padding-top: 40px;
-        padding-left: 10px;
-        line-height: 50px;
+        font-size: 15px;
+       
+        padding-top: 20px;
+        padding-left: 20px;
+        line-height: 40px;
         color: #171717;
         font-style: normal;
         width: 95%;
     }
 
     #texto_baixo2 p{
-        font-size: 17px;
-        font-family: "fonte1";
-        padding-left: 10px;
-        line-height: 30px;
+        font-size: 15px;
+       
+        line-height: 40px;
         color: #171717;
         font-style: normal;
-        width: 97%;
+        width: 85%;
+        top: 54%;
+        right: 50px;
+        position: absolute;
     }
     
-    #img_nov_azul{
-      display: none;
+    #texto_baixo1 img{
+        left: 90px;
+        position: absolute;
+        top: 280px;
     }
 
 
-.meio{
-    display: none;
+    #texto_baixo2 img{
+        right: 95px;
+        top: 800px;
+        position: absolute;
+    }
+
+
 }
-    footer{
-        width: 100%;
-        height: auto;
-        background-color: black;
-        float: left;
-    }
-    #logo_rodape{
-        width: 25%;
-    }
-    #logo_rodape img{
-        width: 100%;
-    }
-    #linha-reta{
-        display: none;
-    }
-    #lado{
-        display: flex;
-    }
-    #acessibilidade, #suporte{
-        width: auto;
-        font-size: 12px;
-        float: left;
-        margin: 3%;
-    }
-    #social a img{
-        width: 30px;
-    }
-}
+   
