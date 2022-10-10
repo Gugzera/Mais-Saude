@@ -302,8 +302,11 @@ footer{
             
             main{
                 width: 100vw;
-                background-size: 360%;
+               
                 height: auto;
+            }
+            #fundo-topo{
+                background-size: 250%;
             }
             main p{
                 font-size: 18px;
