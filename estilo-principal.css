@@ -370,11 +370,10 @@ footer{
     }
 
     #esquerda-topo-principal{
-        width: 95vw;
-        margin-left: 0px;
-        margin-right: 20px;
+        width: 90vw;
+        margin: auto;
         position: absolute;
-        top: 15%;
+        top: 9%;
         left: 2;
     }
     #titulo-verde{
@@ -438,14 +437,23 @@ footer{
         padding-top: 4%;
         align-items: center;
         text-align: center;
+        width: 100%;
+        height: auto;
+        min-height: 760px;
     }
 
     #conteudo_sobrenos{
-        height: 420px;
+        min-height: 480px;
+        height: auto;
         width: 90vw;
-        padding-left: 4%;
-        margin-left: 13%;
         float: left;
+        height: auto;
+    }
+    .texto-sobre-nos{
+        width: 70%;
+        margin: auto;
+        padding: 1%;
+        margin-bottom: 3%;
     }
 
     #imagem_hospital{
