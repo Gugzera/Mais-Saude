@@ -22,9 +22,10 @@ main{
     height: 20px;
 }
 #topo{
-    width: 100%;
+    width: 100vw;
     height: 630px;
     background-image: url(imagens/fundo-principal-verde.png);
+    background-size: cover;
     height: 600px;
     background-repeat: no-repeat;
 }
@@ -344,6 +345,47 @@ footer{
 }
 #lado{
     display: none;
+}
+
+@media only screen and (min-width:1500px) 
+{
+
+
+#topo{
+    background-image: url(imagens/fundo-principal-verde.png);
+    background-repeat: no-repeat;
+    background-size: 115%;
+    height: 900px;
+    width: 100%;
+}
+#titulo-verde{
+    margin-top: 5%;
+    font-size: 60px;
+    color: #19AC20;
+    font-weight: bolder;
+}
+#titulo-preto{
+    color: #171717;
+    font-size: 60px;
+    font-weight: bolder;
+}
+#esquerda-topo-principal p{
+    font-weight: 600;
+    font-size: 24px;
+    font-weight: 400;
+}
+#direita-topo-principal{
+    width: 45%;
+    position: absolute;
+    left: 57%;
+    top: 15%;
+}
+#direita-topo-principal img{
+   width: 90%;
+   height: 590px;
+}
+
+
 }
 
  @media only screen and (max-width:480px) /* visualização mobile */
